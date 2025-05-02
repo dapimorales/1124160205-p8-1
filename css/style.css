@@ -1,17 +1,23 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     margin: 0;
     padding: 0;
-    background-color: grey;
+    background-color:  #ffcad4;
     text-align: center;
     display: flex;
     height: 100vh;
   }
+
   nav {
     width: 20%;
-    background-color: black;
+    background-color: #f4acb7;
     padding: 10px;
   }
+
+  nav h3 {
+    color: #5c4d7d;
+  }
+  
   iframe {
     width: 80%;
     border: none;
@@ -21,8 +27,8 @@ body {
     display: block;
     margin: 10px 0;
     text-decoration: none;
-    color: white ;
+    color: black ;
   }
   a:hover {
-    color: blue;
+    color: #ffcdb2;
   }
