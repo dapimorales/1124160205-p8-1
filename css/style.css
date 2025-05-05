@@ -7,7 +7,7 @@ body {
     display: flex;
     height: 100vh;
   }
-
+  
   nav {
     width: 20%;
     background-color: #f4acb7;
@@ -16,6 +16,8 @@ body {
 
   nav h3 {
     color: #5c4d7d;
+    font-size: 30px;
+
   }
   
   iframe {
@@ -28,6 +30,7 @@ body {
     margin: 10px 0;
     text-decoration: none;
     color: black ;
+    font-size: 20px;
   }
   a:hover {
     color: #ffcdb2;
